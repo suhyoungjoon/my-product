@@ -17,7 +17,7 @@ public class KafkaListener {
             p.setName(orderPlaced.getProductName());
             p.setStock(orderPlaced.getQty());
             productRepository.save(p);
-            System.out.println("=====================");
+//            System.out.println("=====================");
         }
     }
 }
